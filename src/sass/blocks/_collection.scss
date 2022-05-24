@@ -1,0 +1,36 @@
+.collection {
+   padding-top: 130px;
+   &__items {
+      margin-top: 92px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 30px;
+   }
+   &__title {
+      margin: 0 auto;
+      margin-top: 24px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 140%;
+      text-align: center;
+   }
+   &__price {
+      margin-top: 7px;
+      display: flex;
+      justify-content: center;
+      &-strice {
+         font-weight: 500;
+         font-size: 15px;
+         line-height: 140%;
+         text-decoration-line: line-through;
+         color: $price-color;
+         padding-right: 9px;
+      }
+      &-new {
+         font-weight: 500;
+         font-size: 15px;
+         line-height: 140%;
+         color: $price-color;
+      }
+   }
+}

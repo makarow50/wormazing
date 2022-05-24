@@ -1,0 +1,50 @@
+.promo {
+   position: relative;
+   padding: 45px 0;
+   background: linear-gradient(to right, #ffff 55%, #F1EADC 45%);
+   &__wrapper {
+      display: grid;
+      grid-template-columns: minmax(700px, 750px) minmax(500px, 600px);
+   }
+   &__right {
+      // position: relative;
+      margin-top: 40px;
+   }
+
+   &__img {
+      &-bg {
+         width: 410px;
+         height: 646px;
+         img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+      }
+      &-right {
+         width: 197px;
+         height: 197px;
+         position: absolute;
+         top: 250px;
+         right: 92px;
+         img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+      }
+      &-left {
+         width: 190px;
+         height: 318px;
+         position: absolute;
+         bottom: 0;
+         left: 50%;
+         img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+      }
+   }
+   
+}
