@@ -46,5 +46,27 @@
          }
       }
    }
+   .tns-outer {
+      position: relative;
+   }
+   .tns-nav {
+      position: absolute;
+      bottom: 0;
+      right: 43%;
+      
+      [data-nav="0"], [data-nav="1"], [data-nav="2"] {
+         width: 42px;
+         height: 4px;
+         background: #D1D1D1;
+         border: none;
+         margin-right: 12px;
+      }
+      .tns-nav-active {
+         background: #000000;
+      }
+   }
+   .tns-ovh #tns1 {
+      transition-duration: 2s;
+   }
    
 }

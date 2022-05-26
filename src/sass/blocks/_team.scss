@@ -1,0 +1,90 @@
+.team {
+   padding-top: 130px;
+   
+   &__wrapper {
+      position: relative;
+      margin-top: 90px;
+      display: grid;
+      grid-template-columns: minmax(650px, 730px) minmax(200px, 260px);
+      justify-content: space-between;
+   }
+   &__block {
+      margin-top: 78px;
+      &_title {
+         font-weight: 500;
+         font-size: 25px;
+         line-height: 140%;
+      }
+      .title_fs17 {
+         margin-top: 28px;
+      }
+   }
+   &__link {
+      margin-top: 25px;
+      
+      a {
+         font-size: 17px;
+         line-height: 140%;
+         color: $main-color;
+         text-decoration: none;
+      }
+   }
+   .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(50%);
+      left: -70px;
+      border: none;
+      background: #fff;
+   }
+   .next {
+      right: 28%;
+      left: auto;
+   }
+   .tns-outer {
+      position: relative;
+   }
+   .tns-nav {
+      position: absolute;
+      z-index: 1;
+      bottom: 61px;
+      right: 50%;
+      transform: translateX(50%);
+      [data-nav="0"], [data-nav="1"], [data-nav="2"] {
+         width: 30px;
+         height: 4px;
+         background: rgba(255, 255, 255, 0.36);
+         border: none;
+         margin-right: 12px;
+      }
+      .tns-nav-active {
+         background: #FFFFFF;
+      }
+   }
+   
+}
+.tns-ovh #tns2 {
+   transition-duration: 2s;
+}
+
+
+
+
+
+
+
+// .tns-outer {
+//    // button {
+//       position: relative;
+//       top: 126px;
+//       width: 42px;
+//       height: 4px;
+//       left: 235px ;
+//       background: #D1D1D1;
+//       border: none;
+//       margin-right: 12px;
+//    }
+//    .tns-nav-active {
+//       background: #000000;
+//    }
+// }

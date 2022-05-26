@@ -1,0 +1,17 @@
+.important {
+   padding-top: 130px;
+   &__items {
+      margin-top: 92px;
+      display: grid;
+      grid-template-columns: repeat(3, 305px);
+      justify-content: space-between;
+   }
+   &__item {
+      display: grid;
+      grid-template-rows: 63px 40px 115px ;
+      row-gap: 24px;
+      .title_fs25 {
+         margin-top: 13px;
+      }
+   }
+}
